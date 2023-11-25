@@ -111,8 +111,8 @@ const toggleContentOne = document.querySelector(".gContent-one");
 const toggleImageOne = document.querySelector(".img-one");
 
 toggleCompOne.addEventListener("click", () => {
-  toggleContentOne.classList.toggle("hidden");
-  toggleImageOne.classList.toggle("hidden");
+  toggleContentOne.classList.remove("hidden");
+  toggleImageOne.classList.remove("hidden");
   toggleCompOne.classList.add("setup_bg");
 
   toggleContentTwo.classList.add("hidden");
@@ -132,8 +132,8 @@ toggleCompOne.addEventListener("click", () => {
   toggleCompFive.classList.remove("setup_bg");
 });
 toggleCompOne.addEventListener("keypress", () => {
-  toggleContentOne.classList.toggle("hidden");
-  toggleImageOne.classList.toggle("hidden");
+  toggleContentOne.classList.remove("hidden");
+  toggleImageOne.classList.remove("hidden");
   toggleCompOne.classList.add("setup_bg");
 
   toggleContentTwo.classList.add("hidden");
@@ -197,8 +197,8 @@ const toggleContentTwo = document.querySelector(".gContent-two");
 const toggleImageTwo = document.querySelector(".img-two");
 
 toggleCompTwo.addEventListener("click", () => {
-  toggleContentTwo.classList.toggle("hidden");
-  toggleImageTwo.classList.toggle("hidden");
+  toggleContentTwo.classList.remove("hidden");
+  toggleImageTwo.classList.remove("hidden");
   toggleCompTwo.classList.add("setup_bg");
 
   toggleContentOne.classList.add("hidden");
@@ -218,8 +218,8 @@ toggleCompTwo.addEventListener("click", () => {
   toggleCompFive.classList.remove("setup_bg");
 });
 toggleCompTwo.addEventListener("keypress", () => {
-  toggleContentTwo.classList.toggle("hidden");
-  toggleImageTwo.classList.toggle("hidden");
+  toggleContentTwo.classList.remove("hidden");
+  toggleImageTwo.classList.remove("hidden");
   toggleCompTwo.classList.add("setup_bg");
 
   toggleContentOne.classList.add("hidden");
@@ -283,8 +283,8 @@ const toggleContentThree = document.querySelector(".gContent-three");
 const toggleImageThree = document.querySelector(".img-three");
 
 toggleCompThree.addEventListener("click", () => {
-  toggleContentThree.classList.toggle("hidden");
-  toggleImageThree.classList.toggle("hidden");
+  toggleContentThree.classList.remove("hidden");
+  toggleImageThree.classList.remove("hidden");
   toggleCompThree.classList.remove("setup_bg");
 
   toggleContentOne.classList.add("hidden");
@@ -304,8 +304,8 @@ toggleCompThree.addEventListener("click", () => {
   toggleCompFive.classList.remove("setup_bg");
 });
 toggleCompThree.addEventListener("keypress", () => {
-  toggleContentThree.classList.toggle("hidden");
-  toggleImageThree.classList.toggle("hidden");
+  toggleContentThree.classList.remove("hidden");
+  toggleImageThree.classList.remove("hidden");
   toggleCompThree.classList.remove("setup_bg");
 
   toggleContentOne.classList.add("hidden");
@@ -369,8 +369,8 @@ const toggleContentFour = document.querySelector(".gContent-four");
 const toggleImageFour = document.querySelector(".img-four");
 
 toggleCompFour.addEventListener("click", () => {
-  toggleContentFour.classList.toggle("hidden");
-  toggleImageFour.classList.toggle("hidden");
+  toggleContentFour.classList.remove("hidden");
+  toggleImageFour.classList.remove("hidden");
   toggleCompFour.classList.add("setup_bg");
 
   toggleContentOne.classList.add("hidden");
@@ -390,8 +390,8 @@ toggleCompFour.addEventListener("click", () => {
   toggleCompFive.classList.remove("setup_bg");
 });
 toggleCompFour.addEventListener("keypress", () => {
-  toggleContentFour.classList.toggle("hidden");
-  toggleImageFour.classList.toggle("hidden");
+  toggleContentFour.classList.remove("hidden");
+  toggleImageFour.classList.remove("hidden");
   toggleCompFour.classList.add("setup_bg");
 
   toggleContentOne.classList.add("hidden");
@@ -455,8 +455,8 @@ const toggleContentFive = document.querySelector(".gContent-five");
 const toggleImageFive = document.querySelector(".img-five");
 
 toggleCompFive.addEventListener("click", () => {
-  toggleContentFive.classList.toggle("hidden");
-  toggleImageFive.classList.toggle("hidden");
+  toggleContentFive.classList.remove("hidden");
+  toggleImageFive.classList.remove("hidden");
   toggleCompFive.classList.add("setup_bg");
 
   toggleContentOne.classList.add("hidden");
@@ -476,8 +476,8 @@ toggleCompFive.addEventListener("click", () => {
   toggleCompFour.classList.remove("setup_bg");
 });
 toggleCompFive.addEventListener("keypress", () => {
-  toggleContentFive.classList.toggle("hidden");
-  toggleImageFive.classList.toggle("hidden");
+  toggleContentFive.classList.remove("hidden");
+  toggleImageFive.classList.remove("hidden");
   toggleCompFive.classList.add("setup_bg");
 
   toggleContentOne.classList.add("hidden");
