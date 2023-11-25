@@ -554,12 +554,8 @@ html {
   align-items: flex-start;
 }
 
-.setup-container .gList .gRight .guide span {
-  margin-top: 0;
-}
-
-.setup-container .gList .gRight .guide span:focus {
-  font-weight: 600;
+.guide span::first-line {
+  font-weight: 500;
 }
 
 .setup-container .gList .gRight .guide p {
